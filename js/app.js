@@ -1,4 +1,8 @@
 'use strict';
+let userName1= prompt('What is your name?')
+console.log(userName1)
+alert ('Welcome '  +  userName1 );
+
 
 let qusetion = prompt('Are you interested in development field?');
 switch (qusetion = qusetion.toLocaleLowerCase ()) {
@@ -69,3 +73,9 @@ switch (qusetion4= qusetion4.toLocaleLowerCase ()) {
 let userName = prompt ('What is your name?')
  console.log (userName)
  alert ('Welcome '  +  userName + ' to my website, hope your enjoying it ');
+
+
+
+
+ // every thing is fine but i still feel my performance is slow and i keep forgetting how to write the commands 
+ // it took me about 3.5 hours i thought it would take only 2 hours.
