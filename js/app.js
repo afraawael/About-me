@@ -53,20 +53,24 @@ function qThree(){
 }
 qThree();
 
-
-let qusetion3 = prompt('Are you single?');
-switch (qusetion3= qusetion3.toLocaleLowerCase ()) {
-case 'y':
-case 'yes':
-  alert('Yes I am single!');
-  break;
-case 'no':
-case 'n':
-  alert('No I am married!');
-  break;
-default:
-  alert ('it is complicated');
+function qFour(){
+  let qusetion3 = prompt('Are you single?');
+  switch (qusetion3= qusetion3.toLocaleLowerCase ()) {
+  case 'y':
+  case 'yes':
+    alert('Yes I am single!');
+    break;
+  case 'no':
+  case 'n':
+    alert('No I am married!');
+    break;
+  default:
+    alert ('it is complicated');
+  }
 }
+qFour();
+
+
 
 let qusetion4 = prompt('Are you happy in your life?');
 switch (qusetion4= qusetion4.toLocaleLowerCase ()) {
