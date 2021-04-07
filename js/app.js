@@ -19,7 +19,7 @@ function qOne(){
     alert ('Okay no problem');
   }
 }
-qOne();
+
 
 function qTwo(){
   let answer = prompt('Are you a student?');
@@ -37,7 +37,6 @@ function qTwo(){
   }
 
 }
-qTwo();
 
 function qThree(){
   let qusetion1 = prompt('Are you from middle east?');
@@ -52,7 +51,6 @@ function qThree(){
   }
 
 }
-qThree();
 
 function qFour(){
   let qusetion3 = prompt('Are you single?');
@@ -69,7 +67,6 @@ function qFour(){
     alert ('it is complicated');
   }
 }
-qFour();
 
 function qFive(){
   let qusetion4 = prompt('Are you happy in your life?');
@@ -84,7 +81,6 @@ function qFive(){
   }
 }
 
-qFive();
 
 function qSix(){
   for (let i=4; i>0; i--){
@@ -103,7 +99,7 @@ function qSix(){
   alert ('My birthday month is 7');
 }
 
-qSix();
+
 
 function qSeven (){
   let favSinger = ['enrique','akon','chris brown','massari','inna'];
@@ -128,11 +124,19 @@ function qSeven (){
   }
 
 }
-qSeven();
+
+function guessGame (){
+  qOne();
+  qTwo();
+  qThree();
+  qFour();
+  qFive();
+  qSix();
+  qSeven();
+}
 
 
-
-
+guessGame();
 
 
 alert (score);
