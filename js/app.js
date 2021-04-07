@@ -20,20 +20,23 @@ function qOne(){
 }
 qOne();
 
+function qTwo(){
+  let answer = prompt('Are you a student?');
+  switch (answer= answer.toLocaleLowerCase ()) {
+  case 'y':
+  case 'yes':
+    alert('Yes I am!');
+    break;
+  case 'no':
+  case 'n':
+    alert('No I am not');
+    break;
+  default:
+    alert ('I work currently');
+  }
 
-let answer = prompt('Are you a student?');
-switch (answer= answer.toLocaleLowerCase ()) {
-case 'y':
-case 'yes':
-  alert('Yes I am!');
-  break;
-case 'no':
-case 'n':
-  alert('No I am not');
-  break;
-default:
-  alert ('I work currently');
 }
+qTwo();
 
 let qusetion1 = prompt('Are you from middle east?');
 switch (qusetion1= qusetion1.toLocaleLowerCase ()) {
