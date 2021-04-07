@@ -86,21 +86,32 @@ for (let i=4; i>0; i--){
 }
 alert ('My birthday month is 7')
 
+
     let favSinger = ['enrique','akon','chris brown','massari','inna'];
-       for(let j=0 ;j<6 ;i++){
-            let question7 =prompt('Who do you think is my favourite singer?')
-            favSinger=favSinger.toLowerCase();
-            if(favSinger === question7[0] || favSinger === question7[1] || favSinger === question7[2] || favSinger === question7[3] || favSinger === question7[4]){
-                alert('Thats right you guessed my favourite singer');
+    let question7 = null;
+    let attemps = 6;
+    nameofloop: while(attemps>0){
+        attemps--;
+        question7 = prompt ('Who is my favourite singer?');
+        for (let i = 0; i<favSinger.length; i++){
+            if (question7 === favSinger[i]){
+                alert ('Correct Answer');
                 score++;
-                break;   
-            }else{
-                alert('You did not guess my favourite singer')
-              }
-    }
+                break nameofloop;
+            }
+             
+                 
+        } 
+        if ( attemps ==0){
+              alert (favSinger);
+        }
+    }    
+           
+           
+        
 
 
-
+      alert (score);
 let userName = prompt ('What is your name?')
  console.log (userName)
  alert ('Welcome '  +  userName + ' to my website, hope your enjoying it ');
