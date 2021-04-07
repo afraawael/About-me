@@ -2,6 +2,7 @@
 let userName1= prompt('What is your name?');
 console.log(userName1);
 alert ('Welcome ' + userName1 );
+let score=0;
 
 function qOne(){
   let qusetion = prompt('Are you interested in development field?');
@@ -85,24 +86,25 @@ function qFive(){
 
 qFive();
 
-
-
-
-let score=0;
-for (let i=4; i>0; i--){
-  let ownerAge = prompt ('Can you guess my birthday month?') ;
-  ownerAge= parseInt(ownerAge);
-  if (ownerAge === 7 ){
-    alert('wow your amazing thats right!');
-    score++;
-    break;
-  }else if (ownerAge<7){
-    alert('Too low');
-  }else{
-    alert('Too high');
+function qSix(){
+  for (let i=4; i>0; i--){
+    let ownerAge = prompt ('Can you guess my birthday month?') ;
+    ownerAge= parseInt(ownerAge);
+    if (ownerAge === 7 ){
+      alert('wow your amazing thats right!');
+      score++;
+      break;
+    }else if (ownerAge<7){
+      alert('Too low');
+    }else{
+      alert('Too high');
+    }
   }
+  alert ('My birthday month is 7');
 }
-alert ('My birthday month is 7');
+
+qSix();
+
 
 
 let favSinger = ['enrique','akon','chris brown','massari','inna'];
