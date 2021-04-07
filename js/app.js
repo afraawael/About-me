@@ -108,9 +108,12 @@ let userName = prompt ('What is your name?')
 
 
 //lab02 
- // every thing is fine but i still feel my performance is slow and i keep forgetting how to write the commands 
+ // every thing is fine but i still feel my performance is slow and i keep forgetting how to write the code
+ //i don't have questions 
  // it took me about 3.5 hours i thought it would take only 2 hours.
 
+
+ 
  //lab03
  // i faced a problem in the last question and it didnt work with me
  //it took me more than 5 hours and i couldnt solve the question
