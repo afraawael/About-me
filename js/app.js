@@ -38,16 +38,21 @@ function qTwo(){
 }
 qTwo();
 
-let qusetion1 = prompt('Are you from middle east?');
-switch (qusetion1= qusetion1.toLocaleLowerCase ()) {
-case 'y':
-case 'yes':
-  alert('Yes I am from middle east!');
-  break;
-case 'no':
-case 'n':
-  alert('No I am from another place!');
+function qThree(){
+  let qusetion1 = prompt('Are you from middle east?');
+  switch (qusetion1= qusetion1.toLocaleLowerCase ()) {
+  case 'y':
+  case 'yes':
+    alert('Yes I am from middle east!');
+    break;
+  case 'no':
+  case 'n':
+    alert('No I am from another place!');
+  }
+
 }
+qThree();
+
 
 let qusetion3 = prompt('Are you single?');
 switch (qusetion3= qusetion3.toLocaleLowerCase ()) {
