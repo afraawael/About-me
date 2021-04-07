@@ -4,3 +4,8 @@ This webpage is my free platform the place where I can express myself and share 
 
 -Author: Afraa Othman
 -Liense: MIT
+
+
+
+-I was Navigator on: https://github.com/afraawael/About-me/pull/1
+-I was Driver on: https://github.com/ayyoubk/AboutMeGmae/pull/2
