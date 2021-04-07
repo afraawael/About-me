@@ -105,37 +105,38 @@ function qSix(){
 
 qSix();
 
+function qSeven (){
+  let favSinger = ['enrique','akon','chris brown','massari','inna'];
+  let question7 = null;
+  let attemps = 6;
+  attemps=parseInt(attemps);
+  nameofloop: while(attemps>0){
+    attemps--;
+    question7 = prompt ('Who is my favourite singer?');
+    for (let i = 0; i<favSinger.length; i++){
+      if (question7 === favSinger[i]){
+        alert ('Correct Answer');
+        score++;
+        break nameofloop;
+      }
 
 
-let favSinger = ['enrique','akon','chris brown','massari','inna'];
-let question7 = null;
-let attemps = 6;
-attemps=parseInt(attemps);
-nameofloop: while(attemps>0){
-  attemps--;
-  question7 = prompt ('Who is my favourite singer?');
-  for (let i = 0; i<favSinger.length; i++){
-    if (question7 === favSinger[i]){
-      alert ('Correct Answer');
-      score++;
-      break nameofloop;
     }
-
-
+    if ( attemps === 0){
+      alert (favSinger);
+    }
   }
-  if ( attemps === 0){
-    alert (favSinger);
-  }
+
 }
+qSeven();
+
 
 
 
 
 
 alert (score);
-let userName = prompt ('What is your name?');
-console.log (userName);
-alert ('Welcome ' + userName + ' to my website, hope your enjoying it ');
+alert ('Welcome ' + userName1 + ' to my website, hope your enjoying it ');
 
 
 
