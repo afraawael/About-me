@@ -70,18 +70,21 @@ function qFour(){
 }
 qFour();
 
-
-
-let qusetion4 = prompt('Are you happy in your life?');
-switch (qusetion4= qusetion4.toLocaleLowerCase ()) {
-case 'y':
-case 'yes':
-  alert('Yes thanks god!');
-  break;
-case 'no':
-case 'n':
-  alert ('hope you get better soon');
+function qFive(){
+  let qusetion4 = prompt('Are you happy in your life?');
+  switch (qusetion4= qusetion4.toLocaleLowerCase ()) {
+  case 'y':
+  case 'yes':
+    alert('Yes thanks god!');
+    break;
+  case 'no':
+  case 'n':
+    alert ('hope you get better soon');
+  }
 }
+
+qFive();
+
 
 
 
